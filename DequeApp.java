@@ -11,6 +11,9 @@ public class DequeApp {
         names.offer("Jean-Bart"); //adding an element
         names.offer("Jean-Alexandre"); //adding an element
 
+        names.offerFirst("Muteba Gizenga");
+        names.offerLast("Julius Reinhold");
+
         names.forEach(System.out::println);
     }
 }
