@@ -14,6 +14,7 @@ public class DequeApp {
         names.offerFirst("Muteba Gizenga");
         names.offerLast("Julius Reinhold");
 
-        names.forEach(System.out::println);
+        System.out.println(names.pollFirst());
+        System.out.println(names.pollLast());
     }
 }
